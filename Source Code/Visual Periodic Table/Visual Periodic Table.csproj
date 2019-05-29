@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D8A8F642-F5FC-448D-B056-57936C3C0EB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Visual_Periodic_Table</RootNamespace>
+    <AssemblyName>Visual Periodic Table</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bang_Tinh_Tan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bang_Tinh_Tan.Designer.cs">
+      <DependentUpon>Bang_Tinh_Tan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bieu_Do_Dien_Loat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bieu_Do_Dien_Loat.Designer.cs">
+      <DependentUpon>Bieu_Do_Dien_Loat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cai_Dat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cai_Dat.Designer.cs">
+      <DependentUpon>Cai_Dat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Can_Bang_Phuong_Trinhcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Can_Bang_Phuong_Trinhcs.Designer.cs">
+      <DependentUpon>Can_Bang_Phuong_Trinhcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuyen_Doi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuyen_Doi.Designer.cs">
+      <DependentUpon>Chuyen_Doi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBVPTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBVPTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBVPTDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBVPTDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBVPTDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBVPTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBVPTDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBVPTDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fchinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fchinh.Designer.cs">
+      <DependentUpon>fchinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Chao_Mung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Chao_Mung.Designer.cs">
+      <DependentUpon>Form_Chao_Mung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giai_Phuong_Trinh_Bac_Hai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giai_Phuong_Trinh_Bac_Hai.Designer.cs">
+      <DependentUpon>Giai_Phuong_Trinh_Bac_Hai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giai_Phuong_Trinh_Bac_Nhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giai_Phuong_Trinh_Bac_Nhat.Designer.cs">
+      <DependentUpon>Giai_Phuong_Trinh_Bac_Nhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giai_Phuong_Trinh_Bac_Nhat_Hai_An.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giai_Phuong_Trinh_Bac_Nhat_Hai_An.Designer.cs">
+      <DependentUpon>Giai_Phuong_Trinh_Bac_Nhat_Hai_An.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kham_Pha_Ca_Mau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kham_Pha_Ca_Mau.Designer.cs">
+      <DependentUpon>Kham_Pha_Ca_Mau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kien_thuc_hoa_co_ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kien_thuc_hoa_co_ban.Designer.cs">
+      <DependentUpon>Kien_thuc_hoa_co_ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom_Lantan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nhom_Lantan.Designer.cs">
+      <DependentUpon>Nhom_Lantan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nong_Do_Phan_Tram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nong_Do_Phan_Tram.Designer.cs">
+      <DependentUpon>Nong_Do_Phan_Tram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan_Bo_khoi_luong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan_Bo_khoi_luong.Designer.cs">
+      <DependentUpon>Phan_Bo_khoi_luong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thong_Tin_Nguyen_To.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thong_Tin_Nguyen_To.Designer.cs">
+      <DependentUpon>Thong_Tin_Nguyen_To.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thong_Tin_Phan_Mem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thong_Tin_Phan_Mem.Designer.cs">
+      <DependentUpon>Thong_Tin_Phan_Mem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tinh_Dien_Tro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tinh_Dien_Tro.Designer.cs">
+      <DependentUpon>Tinh_Dien_Tro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tinh_Mol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tinh_Mol.Designer.cs">
+      <DependentUpon>Tinh_Mol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tinh_nguyen_tu_khoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tinh_nguyen_tu_khoi.Designer.cs">
+      <DependentUpon>Tinh_nguyen_tu_khoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ti_Le_Cac_Nguyen_To.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ti_Le_Cac_Nguyen_To.Designer.cs">
+      <DependentUpon>Ti_Le_Cac_Nguyen_To.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trinh_Duyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trinh_Duyet.Designer.cs">
+      <DependentUpon>Trinh_Duyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tu_Dien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tu_Dien.Designer.cs">
+      <DependentUpon>Tu_Dien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Video_Huong_Dan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Video_Huong_Dan.Designer.cs">
+      <DependentUpon>Video_Huong_Dan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bang_Tinh_Tan.resx">
+      <DependentUpon>Bang_Tinh_Tan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bieu_Do_Dien_Loat.resx">
+      <DependentUpon>Bieu_Do_Dien_Loat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cai_Dat.resx">
+      <DependentUpon>Cai_Dat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Can_Bang_Phuong_Trinhcs.resx">
+      <DependentUpon>Can_Bang_Phuong_Trinhcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chuyen_Doi.resx">
+      <DependentUpon>Chuyen_Doi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fchinh.resx">
+      <DependentUpon>fchinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Chao_Mung.resx">
+      <DependentUpon>Form_Chao_Mung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giai_Phuong_Trinh_Bac_Hai.resx">
+      <DependentUpon>Giai_Phuong_Trinh_Bac_Hai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giai_Phuong_Trinh_Bac_Nhat.resx">
+      <DependentUpon>Giai_Phuong_Trinh_Bac_Nhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giai_Phuong_Trinh_Bac_Nhat_Hai_An.resx">
+      <DependentUpon>Giai_Phuong_Trinh_Bac_Nhat_Hai_An.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kham_Pha_Ca_Mau.resx">
+      <DependentUpon>Kham_Pha_Ca_Mau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kien_thuc_hoa_co_ban.resx">
+      <DependentUpon>Kien_thuc_hoa_co_ban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhom_Lantan.resx">
+      <DependentUpon>Nhom_Lantan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nong_Do_Phan_Tram.resx">
+      <DependentUpon>Nong_Do_Phan_Tram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan_Bo_khoi_luong.resx">
+      <DependentUpon>Phan_Bo_khoi_luong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Thong_Tin_Nguyen_To.resx">
+      <DependentUpon>Thong_Tin_Nguyen_To.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thong_Tin_Phan_Mem.resx">
+      <DependentUpon>Thong_Tin_Phan_Mem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tinh_Dien_Tro.resx">
+      <DependentUpon>Tinh_Dien_Tro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tinh_Mol.resx">
+      <DependentUpon>Tinh_Mol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tinh_nguyen_tu_khoi.resx">
+      <DependentUpon>Tinh_nguyen_tu_khoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ti_Le_Cac_Nguyen_To.resx">
+      <DependentUpon>Ti_Le_Cac_Nguyen_To.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trinh_Duyet.resx">
+      <DependentUpon>Trinh_Duyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tu_Dien.resx">
+      <DependentUpon>Tu_Dien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Video_Huong_Dan.resx">
+      <DependentUpon>Video_Huong_Dan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DBVPTDataSet.xsc">
+      <DependentUpon>DBVPTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBVPTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBVPTDataSet.xss">
+      <DependentUpon>DBVPTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet1.xsc">
+      <DependentUpon>DBVPTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBVPTDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBVPTDataSet1.xss">
+      <DependentUpon>DBVPTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet2.xsc">
+      <DependentUpon>DBVPTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBVPTDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBVPTDataSet2.xss">
+      <DependentUpon>DBVPTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet3.xsc">
+      <DependentUpon>DBVPTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DBVPTDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBVPTDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBVPTDataSet3.xss">
+      <DependentUpon>DBVPTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tác giả Bảng tuần hoàn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DATA\DBVPT.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DATA\DBVPT_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DBVPT.mdf</DependentUpon>
+    </Content>
+    <Content Include="DBVPT.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DBVPT_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DBVPT.mdf</DependentUpon>
+    </Content>
+    <Content Include="Image Of Visual Periodic Table\actinium.png" />
+    <Content Include="Image Of Visual Periodic Table\Ag.jpg" />
+    <Content Include="Image Of Visual Periodic Table\aluminium-4.jpg" />
+    <Content Include="Image Of Visual Periodic Table\americium.png" />
+    <Content Include="Image Of Visual Periodic Table\antimony.jpg" />
+    <Content Include="Image Of Visual Periodic Table\argon.jpg" />
+    <Content Include="Image Of Visual Periodic Table\arsenic.jpg" />
+    <Content Include="Image Of Visual Periodic Table\astatine.jpg" />
+    <Content Include="Image Of Visual Periodic Table\barium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\berkelium.png" />
+    <Content Include="Image Of Visual Periodic Table\beryllium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\bismuth.jpg" />
+    <Content Include="Image Of Visual Periodic Table\boron.jpg" />
+    <Content Include="Image Of Visual Periodic Table\bromine.jpg" />
+    <Content Include="Image Of Visual Periodic Table\cadmium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\caesium-3.jpg" />
+    <Content Include="Image Of Visual Periodic Table\calcium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\californium.png" />
+    <Content Include="Image Of Visual Periodic Table\carbon.jpg" />
+    <Content Include="Image Of Visual Periodic Table\cerium.png" />
+    <Content Include="Image Of Visual Periodic Table\chlorine.jpg" />
+    <Content Include="Image Of Visual Periodic Table\chromium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\cobalt.jpg" />
+    <Content Include="Image Of Visual Periodic Table\cu.jpg" />
+    <Content Include="Image Of Visual Periodic Table\curium.png" />
+    <Content Include="Image Of Visual Periodic Table\deuterium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\dysprosium.png" />
+    <Content Include="Image Of Visual Periodic Table\einsteinium.png" />
+    <Content Include="Image Of Visual Periodic Table\erbium.png" />
+    <Content Include="Image Of Visual Periodic Table\europium.png" />
+    <Content Include="Image Of Visual Periodic Table\fermium.png" />
+    <Content Include="Image Of Visual Periodic Table\fluorine.jpg" />
+    <Content Include="Image Of Visual Periodic Table\francium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\gadolinium.png" />
+    <Content Include="Image Of Visual Periodic Table\gallium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\germanium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\gold.jpg" />
+    <Content Include="Image Of Visual Periodic Table\H.jpg" />
+    <Content Include="Image Of Visual Periodic Table\hafnium-2.jpg" />
+    <Content Include="Image Of Visual Periodic Table\hd.mp4" />
+    <Content Include="Image Of Visual Periodic Table\helium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\holmium.png" />
+    <Content Include="Image Of Visual Periodic Table\hydrargyrum.jpg" />
+    <Content Include="Image Of Visual Periodic Table\indium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\iodine.jpg" />
+    <Content Include="Image Of Visual Periodic Table\iridium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\iron.jpg" />
+    <Content Include="Image Of Visual Periodic Table\kali.jpg" />
+    <Content Include="Image Of Visual Periodic Table\Khong_co_anh.png" />
+    <Content Include="Image Of Visual Periodic Table\Khong_co_anh_VPT.png" />
+    <Content Include="Image Of Visual Periodic Table\Khong_co_anh_VPTN.png" />
+    <Content Include="Image Of Visual Periodic Table\krypton.jpg" />
+    <Content Include="Image Of Visual Periodic Table\lanthanum.png" />
+    <Content Include="Image Of Visual Periodic Table\lawrencium.png" />
+    <Content Include="Image Of Visual Periodic Table\lead.jpg" />
+    <Content Include="Image Of Visual Periodic Table\lithium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\lutetium.png" />
+    <Content Include="Image Of Visual Periodic Table\magnesium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\manganese-2.jpg" />
+    <Content Include="Image Of Visual Periodic Table\mendelevium.png" />
+    <Content Include="Image Of Visual Periodic Table\molybdenum.jpg" />
+    <Content Include="Image Of Visual Periodic Table\neodymium.png" />
+    <Content Include="Image Of Visual Periodic Table\neon.jpg" />
+    <Content Include="Image Of Visual Periodic Table\neptunium.png" />
+    <Content Include="Image Of Visual Periodic Table\nickel.jpg" />
+    <Content Include="Image Of Visual Periodic Table\niobium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\nitrogen.jpg" />
+    <Content Include="Image Of Visual Periodic Table\nobelium.png" />
+    <Content Include="Image Of Visual Periodic Table\osmium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\oxygen.jpg" />
+    <Content Include="Image Of Visual Periodic Table\palladium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\phosphorus.jpg" />
+    <Content Include="Image Of Visual Periodic Table\platinum.jpg" />
+    <Content Include="Image Of Visual Periodic Table\plutonium %281%29.png" />
+    <Content Include="Image Of Visual Periodic Table\plutonium.png" />
+    <Content Include="Image Of Visual Periodic Table\polonium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\praseodymium.png" />
+    <Content Include="Image Of Visual Periodic Table\promethium.png" />
+    <Content Include="Image Of Visual Periodic Table\protactinium.png" />
+    <Content Include="Image Of Visual Periodic Table\radium-glow.jpg" />
+    <Content Include="Image Of Visual Periodic Table\radon.jpg" />
+    <Content Include="Image Of Visual Periodic Table\rhenium-3.jpg" />
+    <Content Include="Image Of Visual Periodic Table\rhodium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\rubidium-2.jpg" />
+    <Content Include="Image Of Visual Periodic Table\ruthenium-crystal.jpg" />
+    <Content Include="Image Of Visual Periodic Table\samarium.png" />
+    <Content Include="Image Of Visual Periodic Table\scandium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\selenium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\silicon.jpg" />
+    <Content Include="Image Of Visual Periodic Table\sodium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\strontium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\sulfur-3.jpg" />
+    <Content Include="Image Of Visual Periodic Table\tantalum.jpg" />
+    <Content Include="Image Of Visual Periodic Table\technetium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\tellurium-2.jpg" />
+    <Content Include="Image Of Visual Periodic Table\terbium.png" />
+    <Content Include="Image Of Visual Periodic Table\thallium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\thorium.png" />
+    <Content Include="Image Of Visual Periodic Table\thulium.png" />
+    <Content Include="Image Of Visual Periodic Table\tin.jpg" />
+    <Content Include="Image Of Visual Periodic Table\titanium-crystal.jpg" />
+    <Content Include="Image Of Visual Periodic Table\tungsten-rod.jpg" />
+    <Content Include="Image Of Visual Periodic Table\uranium.png" />
+    <Content Include="Image Of Visual Periodic Table\vanadium.jpg" />
+    <Content Include="Image Of Visual Periodic Table\xenon.jpg" />
+    <Content Include="Image Of Visual Periodic Table\ytterbium.png" />
+    <Content Include="Image Of Visual Periodic Table\yttrium-2.jpg" />
+    <Content Include="Image Of Visual Periodic Table\zinc-2.jpg" />
+    <Content Include="Image Of Visual Periodic Table\zirconium.jpg" />
+    <Content Include="Resources\hd.mp4" />
+    <None Include="Resources\computers02600tj0.jpg" />
+    <None Include="Resources\moc.jpg" />
+    <None Include="Resources\toa_do.jpg" />
+    <None Include="Resources\Ti_le_cac_nguyen_to1.PNG" />
+    <None Include="Resources\world_48.png" />
+    <None Include="Resources\customer-service1.png" />
+    <None Include="Resources\language.png" />
+    <None Include="Resources\dna.png" />
+    <None Include="Resources\responsive.png" />
+    <None Include="Resources\communication.png" />
+    <None Include="Resources\tools-and-utensils.png" />
+    <None Include="Resources\binary-code.png" />
+    <None Include="Resources\homepage.png" />
+    <None Include="Resources\cancel-button.png" />
+    <None Include="Resources\wikipedia-logotype-of-earth-puzzle.png" />
+    <None Include="Resources\iconp1.png" />
+    <None Include="Resources\physics.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\customer-service.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\settings-work-tool.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\science.png" />
+    <None Include="Resources\grid.png" />
+    <None Include="Resources\info1.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\x-button.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\house.png" />
+    <None Include="Resources\ok1.png" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\Hình nền Visual Perioidic Table1.png" />
+    <None Include="Resources\Hình nền Visual Perioidic Table.png" />
+    <None Include="Resources\chemistry1.png" />
+    <None Include="Resources\iconp.png" />
+    <None Include="Resources\chemistry.png" />
+    <None Include="Resources\Ti_le_cac_nguyen_to.PNG" />
+    <None Include="Resources\Bang_Tinh_Tan_Of_Visual_Periodic_Table.PNG" />
+    <None Include="Resources\Bang_Dien_Loat.PNG" />
+    <None Include="Resources\back-iconxanh.png" />
+    <None Include="Resources\add-user.png" />
+    <None Include="Resources\250px-Bản_đồ_tỉnh_Cà_Mau.png" />
+    <None Include="Resources\250px-Đặc_sản_Tôm_khô_Cà_Mau.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\250px-Bản_đồ_tỉnh_Cà_Mau.png" />
+    <Content Include="Kham_Pha_Ca_Mau\250px-Đặc_sản_Tôm_khô_Cà_Mau.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\272px-Chuối_tại_rừng_U_Minh_hạ.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\dam.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\dam_thi.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\dam_thi_tuong.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\danh_thang_hon.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\dao.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\dao_hon_khao.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\day_thep.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\hon.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\hon_da.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\Hon_Da_Bac.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\hon_da_bac_tren_cao.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\hon_deo.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\khaoi.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\moc.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\mui.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\nha_day_thep.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\quocgaiuminh.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\quocgaiuminha.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\toa_do.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\uminha.jpg" />
+    <Content Include="Kham_Pha_Ca_Mau\ve_dep_dam_thi_tuong.jpg" />
+    <Content Include="Resources\beryllium.jpg" />
+    <None Include="Resources\IconVPTN.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMicrosoft.Office.Interop.OutlookViewCtl">
+      <Guid>{0006F062-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.OutlookViewCtl">
+      <Guid>{0006F062-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

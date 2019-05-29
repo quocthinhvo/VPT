@@ -1,0 +1,47 @@
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\Visual Periodic Table.exe
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\Visual Periodic Table.pdb
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.fchinh.resources
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Properties.Resources.resources
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual Periodic Table.csproj.GenerateResource.Cache
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual Periodic Table.exe
+c:\users\quoc thinh\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual Periodic Table.pdb
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual Periodic Table.csprojResolveAssemblyReference.cache
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Thong_Tin_Nguyen_To.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Thong_Tin_Phan_Mem.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Bang_Tinh_Tan.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Phan_Bo_khoi_luong.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Bieu_Do_Dien_Loat.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Tinh_Dien_Tro.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Tinh_nguyen_tu_khoi.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Kien_thuc_hoa_co_ban.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Form_Chao_Mung.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Cai_Dat.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\Visual Periodic Table.exe.config
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Nhom_Lantan.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Giai_Phuong_Trinh_Bac_Nhat.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Giai_Phuong_Trinh_Bac_Hai.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Giai_Phuong_Trinh_Bac_Nhat_Hai_An.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Nong_Do_Phan_Tram.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Ti_Le_Cac_Nguyen_To.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Chuyen_Doi.resources
+C:\Users\QUOC THINH\documents\visual studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Tinh_Mol.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Can_Bang_Phuong_Trinhcs.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\Interop.SHDocVw.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\AxInterop.Microsoft.Office.Interop.OutlookViewCtl.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\AxInterop.Microsoft.Office.Interop.OutlookViewCtl.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\AxInterop.SHDocVw.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual Periodic Table.csproj.ResolveComReference.cache
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Trinh_Duyet.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Tu_Dien.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\Interop.WMPLib.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Video_Huong_Dan.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\obj\x86\Debug\Visual_Periodic_Table.Kham_Pha_Ca_Mau.resources
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\DATA\DBVPT.mdf
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\DATA\DBVPT_log.ldf
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\DBVPT.mdf
+C:\Users\QUOC THINH\Documents\Visual Studio 2010\Projects\Visual Periodic Table\Visual Periodic Table\bin\Debug\DBVPT_log.ldf
