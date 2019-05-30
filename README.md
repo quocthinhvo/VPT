@@ -1,9 +1,9 @@
 # VPT
-Visual Periodic Table \n
+Visual Periodic Table
 <strong>Thông tin chi tiết phần mềm </strong>
 <p>
-  Tính năng phần mềm Bảng tuần hoàn các nguyên tố hóa học - Visual Periodic Table
-Cái này chỉ mới tổng hợp tính năng thôi nha thầy. Thầy cần tổng hợp lại sao cho đúng với mẫu quy định và chỉnh sửa Font chữ Time New Roman với cỡ chữ là 14 cho nó chuẩn
+  Tính năng phần mềm Bảng tuần hoàn các nguyên tố hóa học - Visual Periodic Table </p>
+
 1.	Cung cấp thông tin các nguyên tố trong bảng tuần hoàn các nguyên tố hóa học. Đầy đủ những thông tin cần thiết cho học sinh khối trung học cơ sở
 2.	Cân bằng phương trình hóa học: phần mềm có khả năng cân bằng tất cả các phương trình trong chương trình Hóa 8/9. Do thời gian thiết kế phần mềm có hạn nên cơ sở dữ liệu cũng ít, chính vì thế mà phần mềm chỉ cân bằng được một số phương trình cơ bản
 3.	Từ điển phương trình hóa học: Người dùng có thể nhập tên chất và xem thông tin của chất đó
