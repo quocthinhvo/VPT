@@ -1,5 +1,5 @@
 # VPT
-Visual Periodic Table
+Visual Periodic Table \n
 <strong>Thông tin chi tiết phần mềm </strong>
 <p>
   Tính năng phần mềm Bảng tuần hoàn các nguyên tố hóa học - Visual Periodic Table
