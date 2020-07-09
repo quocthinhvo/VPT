@@ -47,5 +47,4 @@ Các môi trường phát triển, các IDE phát triển mà em sử dụng
 <p>
   Quốc Thịnh: quocthinhvo0@gmail.com
   GitHub: github.com/quocthinhvo
-  Số điện thoại: 0856428796
 </p>
